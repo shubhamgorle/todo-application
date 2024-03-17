@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+   
+}
+.todoform-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 57px;
+}
+.todo-form{
+    height: 520px;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 0 2rem;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+}
+.heading{
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+    color: #3b3b98;
+}
+.todo-input{
+  height: 3rem;
+  width: 18rem;
+  margin: 8px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: none;
+  font-size: large;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+textarea[type="message"]{
+    font-size: 1.3rem;
+    resize: none;
+    height: 9rem;
+}
+ textarea[type="message"]::placeholder{
+    letter-spacing: -0.2rem;
+} 
+
+.todo-button{
+    height: 3rem;
+    width: 18rem;
+    margin: 2rem;
+    border-radius: 3px;
+    border: none;
+    font-size: 1rem;
+    background-color: #fc427b;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.todo-button:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    background-color: #da2a5e;
+}
+
